@@ -1,0 +1,20 @@
+# Simplified UV Commands
+
+
+# To add a NEW package (this also installs it):
+uv add <package-name>
+
+# To remove a package:
+uv remove <package-name>
+
+# To install all packages listed in your pyproject.toml:
+uv pip sync pyproject.toml
+
+# To install all packages from requirements.txt:
+uv pip install -r requirements.txt
+
+# To see all installed packages and their versions:
+uv pip freeze
+
+#add to req.txt file
+uv pip freeze > requirements.txt
